@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  /*font-family: 'Notable', sans-serif;*/
+  font-family: 'Staatliches', cursive;
+  background-color: black;
+  color: white;
+}
+a {
+  color: #ffffff;
+}
+/*les liens en général*/
+a:hover {
+  color: #ffffff;
+}
+/*quand on passe la souris sur un lien*/
+a:active {
+  color: #ffffff;
+}
+/*quand on clique sur le lien*/
+a:visited {
+  color: #ffffff;
+}
+/*quand le lien a déja été visité*/
+a:link {
+  text-decoration: none;
+}
+a {
+  padding-left: 12% ;
+}
+.lettrouge {
+  color: #a11212;
+}
+.lettrjaune {
+  color: #d7d803;
+}
+.lettrgrise {
+  color: #0b0d0d;
+}
+.lettrgrisclair {
+  color: #AFEEEE;
+}
+.lettrviolette {
+  color: #2d12a1;
+}
+.lettrblanche {
+  color: #DCDCDC;
+}
+.sonen {
+  color: #222829;
+}
+.motvert {
+  color: #2e8b57;
+}
+.roboto {
+  font-family: 'Roboto';
+}
+.backarrow {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  top: 30px;
+  left: 30px;
+}
+header {
+  display: inline-flex;
+  font-family: 'Roboto';
+  font-size: 2em;
+  position: relative;
+  top: 30px;
+  width: 90%;
+}
+@media only screen and (min-width: 32em) {
+  header {
+    top: 40px;
+    left: 40px;
+  }
+}
+ul {
+  position: relative;
+  top: -5px;
+  padding-left: 50px;
+  list-style: none;
+  z-index: 500;
+  font-size: 2em;
+}
+@media only screen and (min-width: 32em) {
+  ul {
+    font-size: 2.5em;
+  }
+}
+@media only screen and (min-width: 48em) {
+  ul {
+    font-size: 3em;
+  }
+}
+@media only screen and (min-width: 64em) {
+  ul {
+    font-size: 3.5em;
+  }
+}
+@media only screen and (min-width: 84em) {
+  ul {
+    font-size: 4.2em;
+  }
+}
+li {
+  margin-top: 25px;
+}
+.logo {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -20px;
+  left: 60px;
+}
+header {
+  left: -35px;
+  font-size: 1.2em;
+}
+@media only screen and (min-width: 32em) {
+  header {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 48em) {
+  header {
+    font-size: 2em;
+  }
+}
+#margintop {
+  margin-top: 25px;
+}
+.navigation ul li {
+  opacity: 0.3;
+}
+.navigation ul li:hover {
+  opacity: 1;
+}
+.navigation img {
+  position: absolute;
+  pointer-events: none;
+  border-radius: 5px;
+}
+.navigation video {
+  pointer-events: none;
+  position: absolute;
+}
+@media only screen and (min-width: 48em) {
+  img {
+    top: -20%;
+    left: 17%;
+  }
+}
+#b111 {
+  left: 20%;
+}
+@media only screen and (min-width: 32em) {
+  #b111 {
+    left: 30%;
+    top: 10%;
+  }
+}
+@media only screen and (min-width: 48em) {
+  #b111 {
+    width: 500px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 64em) {
+  #b111 {
+    width: 600px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 84em) {
+  #b111 {
+    top: -5%;
+    width: 800px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 48em) {
+  #c222 {
+    top: 15%;
+  }
+}
+#d333 {
+  left: 35%;
+  top: 20%;
+}
+@media only screen and (min-width: 32em) {
+  #d333 {
+    left: 35%;
+    top: 12%;
+  }
+}
+@media only screen and (min-width: 48em) {
+  #d333 {
+    width: 500px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 64em) {
+  #d333 {
+    width: 600px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 84em) {
+  #d333 {
+    top: 6%;
+    left: 30%;
+    width: 800px;
+    height: auto;
+  }
+}
+#e444 {
+  top: 22%;
+  left: 40%;
+}
+@media only screen and (min-width: 32em) {
+  #e444 {
+    top: 10%;
+  }
+}
+@media only screen and (min-width: 84em) {
+  #e444 {
+    top: 22%;
+    left: 48%;
+    width: 700px;
+    height: auto;
+  }
+}
+#f555 {
+  top: 33%;
+  left: 30%;
+}
+@media only screen and (min-width: 84em) {
+  #f555 {
+    top: 15%;
+    left: 28%;
+  }
+}
+#g666 {
+  left: 35%;
+  top: 38%;
+}
+@media only screen and (min-width: 32em) {
+  #g666 {
+    top: 30%;
+  }
+}
+@media only screen and (min-width: 64em) {
+  #g666 {
+    top: 28%;
+    left: 30%;
+  }
+}
+@media only screen and (min-width: 84em) {
+  #g666 {
+    top: 10%;
+    left: 40%;
+    width: : 750px;
+    height: auto;
+  }
+}
+h1 {
+  font-size: 0.7em;
+  position: relative;
+  top: -35px;
+  padding-left: 40px;
+}
+#check {
+  font-size: 1rem;
+}
+.hiddenp {
+  height: auto;
+  width: 200px;
+  opacity: 0;
+  position: absolute;
+  z-index: 400;
+  margin-top: -45px;
+}
+@media only screen and (min-width: 32em) {
+  .hiddenp {
+    height: auto;
+    width: 250px;
+  }
+}
+.hidden {
+  width: 200px;
+  height: auto;
+  opacity: 0;
+  position: absolute;
+  z-index: 399;
+}
+@media only screen and (min-width: 32em) {
+  .hidden {
+    width: 400px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .hidden {
+    width: 530px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .hidden {
+    width: 700px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 84em) {
+  .hidden {
+    width: 820px;
+    height: auto;
+  }
+}
+footer {
+  padding-left: 50%;
+  font-size: 1rem;
+}
+footer a {
+  text-decoration: underline;
+}
+@media only screen and (min-width: 32em) {
+  footer {
+    font-size: 1rem;
+  }
+}
+.form {
+  margin-left: 5%;
+}
+/*Formulaire page contact*/
+.ml14 {
+  position: relative;
+  left: 120px;
+  font-weight: 200;
+  font-size: 0.7em;
+}
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+.ml14 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+body#divcompetences {
+  margin-left: 2%;
+}
+body#divcompetences h1 {
+  margin-left: 5%;
+}
+@media only screen and (min-width: 32em) {
+  body#divcompetences #comp {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 48em) {
+  body#divcompetences #comp {
+    font-size: 2em;
+  }
+}
+@media only screen and (min-width: 64em) {
+  body#divcompetences #comp {
+    font-size: 3.2em;
+  }
+}
+@media only screen and (min-width: 84em) {
+  body#divcompetences #comp {
+    font-size: 3.5em;
+  }
+}
+body#quisuisje {
+  font-variant: small-caps;
+}
+body#quisuisje .centered {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+body#quisuisje .centered img {
+  border-radius: 5px;
+  top: 50px;
+  width: 200px;
+  height: auto;
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+@media only screen and (min-width: 32em) {
+  body#quisuisje .centered img {
+    width: 400px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 48em) {
+  body#quisuisje .centered img {
+    width: 530px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 64em) {
+  body#quisuisje .centered img {
+    width: 700px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 84em) {
+  body#quisuisje .centered img {
+    width: 820px;
+    height: auto;
+  }
+}
+body#quisuisje .centered #monalisa {
+  left: 70px;
+}
+@media only screen and (min-width: 32em) {
+  body#quisuisje .centered #monalisa {
+    width: 300px;
+    height: auto;
+    left: 100px;
+  }
+}
+@media only screen and (min-width: 48em) {
+  body#quisuisje .centered #monalisa {
+    width: 330px;
+    height: auto;
+    left: 150px;
+  }
+}
+@media only screen and (min-width: 64em) {
+  body#quisuisje .centered #monalisa {
+    width: 400px;
+    height: auto;
+    left: 200px;
+  }
+}
+@media only screen and (min-width: 84em) {
+  body#quisuisje .centered #monalisa {
+    width: 520px;
+    height: auto;
+    left: 300px;
+  }
+}
+body#quisuisje .centered #imgemc2 {
+  left: 3%;
+}
+body#quisuisje .centered #imgknow {
+  left: 85px;
+}
+@media only screen and (min-width: 32em) {
+  body#quisuisje .centered {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 48em) {
+  body#quisuisje .centered {
+    font-size: 2em;
+  }
+}
+@media only screen and (min-width: 64em) {
+  body#quisuisje .centered {
+    font-size: 3.2em;
+  }
+}
+@media only screen and (min-width: 84em) {
+  body#quisuisje .centered {
+    font-size: 3.5em;
+  }
+}
+body#contactez {
+  font-variant: small-caps;
+}
+@media only screen and (min-width: 32em) {
+  body#contactez #divcontact {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 48em) {
+  body#contactez #divcontact {
+    font-size: 2em;
+  }
+}
+@media only screen and (min-width: 64em) {
+  body#contactez #divcontact {
+    font-size: 3.2em;
+  }
+}
+@media only screen and (min-width: 84em) {
+  body#contactez #divcontact {
+    font-size: 3.5em;
+  }
+}
+body#contactez #divcontact #rgpd {
+  font-size: 1rem;
+}
+body#projets {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-variant: small-caps;
+}
+@media only screen and (min-width: 32em) {
+  body#projets {
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 48em) {
+  body#projets {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 64em) {
+  body#projets {
+    font-size: 1.8em;
+  }
+}
+@media only screen and (min-width: 84em) {
+  body#projets {
+    font-size: 2em;
+  }
+}
+body#projets ul li {
+  font-size: 0.5em;
+}
+body#formation {
+  font-variant: small-caps;
+}
+body#formation #divformation {
+  margin-left: 2%;
+  margin-top: 60px;
+}
+body#formation #divformation img.geometre {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  width: 200px;
+  height: auto;
+  top: 80px;
+}
+@media only screen and (min-width: 32em) {
+  body#formation #divformation img.geometre {
+    width: 400px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 48em) {
+  body#formation #divformation img.geometre {
+    width: 530px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 64em) {
+  body#formation #divformation img.geometre {
+    width: 700px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 84em) {
+  body#formation #divformation img.geometre {
+    width: 820px;
+    height: auto;
+  }
+}
+body#formation #divformation img.compta {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  width: 200px;
+  height: auto;
+  top: 80px;
+}
+@media only screen and (min-width: 32em) {
+  body#formation #divformation img.compta {
+    width: 400px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 48em) {
+  body#formation #divformation img.compta {
+    width: 530px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 64em) {
+  body#formation #divformation img.compta {
+    width: 700px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 84em) {
+  body#formation #divformation img.compta {
+    width: 820px;
+    height: auto;
+  }
+}
+body#formation #divformation img.imgcodage {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  width: 200px;
+  height: auto;
+  top: 80px;
+}
+@media only screen and (min-width: 32em) {
+  body#formation #divformation img.imgcodage {
+    width: 400px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 48em) {
+  body#formation #divformation img.imgcodage {
+    width: 530px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 64em) {
+  body#formation #divformation img.imgcodage {
+    width: 700px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 84em) {
+  body#formation #divformation img.imgcodage {
+    width: 820px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 32em) {
+  body#formation #divformation {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 48em) {
+  body#formation #divformation {
+    font-size: 2em;
+  }
+}
+@media only screen and (min-width: 64em) {
+  body#formation #divformation {
+    font-size: 3.2em;
+  }
+}
+@media only screen and (min-width: 84em) {
+  body#formation #divformation {
+    font-size: 3.5em;
+  }
+}
+body#formation #divformation a {
+  font-size: 2rem;
+}
+.button {
+  position: relative;
+  appearance: none;
+  background: #2e8b57;
+  padding: 1em 2em;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+}
+.button span {
+  position: relative;
+  pointer-events: none;
+}
+.button::before {
+  --size: 0;
+  content: '';
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, #d7d803, transparent);
+  transform: translate(-50%, -50%);
+  transition: width .2s ease, height .2s ease;
+}
+.button:hover::before {
+  --size: 400px;
+}
+#headerforma #lettersforma {
+  margin-left: 120px;
+}
+#headerforma a {
+  color: white;
+}

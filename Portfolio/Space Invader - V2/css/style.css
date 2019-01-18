@@ -1,0 +1,55 @@
+html, body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+body {
+	background-image: url(../img/cosmos.jpg);
+	background-size: 100%;
+	width: 100%;
+}
+
+
+#vaisseau {
+	position: absolute;
+	bottom: 0;
+	left: 40%;
+}
+
+#vaisseau img {
+	height: 100px;
+	width: auto;
+}
+
+.spaceInvader {
+	width: 100px;
+	height: 100px;
+    position: absolute;
+}
+
+#invaders {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+.missile {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+    background-size: cover;
+	bottom: 0;
+	left: 40%;
+	
+}
+
+#score{
+    color:white;
+    font-size: 2em;
+    
+}
+
